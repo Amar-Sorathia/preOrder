@@ -1,0 +1,146 @@
+/* Header */
+#navbar::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 16%;
+    background: black;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0px;
+    padding: 0px;
+    font-family: 'Merriweather Sans', sans-serif;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-flow: column;
+    overflow: hidden;
+    z-index: 0;
+}
+
+#navbar ul li {
+    margin: 2px 0.5rem;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 0px;
+    font-size: 0.9rem;
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 0px 12px;
+}
+
+
+/* section: promotionbar */
+#promotionbar p {
+    text-align: center;
+    font-size: 15px;
+}
+
+#promotionbar::before {
+    content: "";
+    width: 100%;
+    height: 60%;
+    left: 0px;
+    top: 97px;
+    background: url('../img\ -\ background/background 1.jpg') no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    /* opacity: 0.5; */
+}
+
+.center {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Bree Serif', serif;
+    color: inherit;
+}
+
+.btn {
+    font-size: 17px;
+    margin: 1rem auto;
+    padding: 11px;
+    cursor: pointer;
+}
+
+#promotionbar::before {
+    height: 67%;
+}
+
+#utility .container-2 {
+    background-color: rgb(183, 118, 183);
+}
+
+/* section: utility */
+#utility .container-2:hover {
+    border: 3px solid red;
+    color: black;
+    transition: none;
+    margin: 23px;
+    width: 300px;
+    transform: none;
+    padding: 12px;
+    background-color: rgb(183, 118, 183);
+}
+
+/* section: footer */
+#footer {
+    color: black;
+    /* background-color: black; */
+    position: relative;
+    top: 41.5rem;
+    overflow: hidden;
+}
+
+#cheader{
+    text-align: center;
+}
+
+
+#inputtag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    width: 376px;
+    height: 226px;
+    border: 5px ridge blue;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    border-radius: 23px;
+}
+
+.styler-1 {
+    margin-left: 24px;
+}
+.input-1{
+    padding-top: 5px;
+}
+
+#submitbtn {
+    color: black;
+    background-color: rgb(237, 183, 183);
+    padding: 5px 17px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    transition-duration: 1s;
+}
+
+#submitbtn:hover {
+
+    background-color: rgb(186, 88, 88);
+    padding: 10px 45px;
+}
